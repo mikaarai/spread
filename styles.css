@@ -56,17 +56,35 @@ footer {
 	font-size: 60px;
 	color: blue;
 	border-top: 2ch;
-	border-bottom: 2px blue;
+	border-bottom: 2px blue solid;
 	padding-bottom: 3rem;
 }
 
+.author-item-2 {
+	font-size: 60px;
+	color: blue;
+	border-top: 2ch;
+	border-bottom: 2px blue solid;
+	padding-bottom: 3rem;
+}
 .author-item-1 p {
 	font-size: 18px;
 }
 
+.author-item-2 p {
+	font-size: 18px;
+}
 .intro {
 	background-color: blue;
 	color:white;
 	border-top: 1rem;
 	border: 1px;
+}
+
+.arrow {
+	position: relative;
+	left: 100px;
+	top: 100px;
+	display: block;
+	transform: rotate(45deg);
 }
