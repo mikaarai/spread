@@ -19,15 +19,6 @@ h3 {
 	margin: 16px;
 }	
 
-h2 {
-	font-size: 36px;
-	font-family: "inter";
-	background-color: blue;
-	color: white;
-	padding: 0;
-	
-}
-
 header {
 	margin: 5%;
 
@@ -52,7 +43,7 @@ footer {
 	padding: 5%;
 }
 
-.author-item-1 {
+.author-item-1，.author-item-2  {
 	font-size: 60px;
 	color: blue;
 	border-top: 2ch;
@@ -60,20 +51,11 @@ footer {
 	padding-bottom: 3rem;
 }
 
-.author-item-2 {
-	font-size: 60px;
-	color: blue;
-	border-top: 2ch;
-	border-bottom: 2px blue solid;
-	padding-bottom: 3rem;
-}
-.author-item-1 p {
+.author-item-1 p .author-item-2 p {
 	font-size: 18px;
 }
 
-.author-item-2 p {
-	font-size: 18px;
-}
+
 .intro {
 	background-color: blue;
 	color:white;
@@ -87,4 +69,72 @@ footer {
 	top: 100px;
 	display: block;
 	transform: rotate(45deg);
+}
+
+@media only screen and (max-width:375px ) {
+body {
+	font-size:16px;
+
+ }
+
+h1{
+  font-size:40px;
+ }
+.author-item-1，.author-item-2{
+	font-size:40px;
+ }
+.arrow{
+	left:20px;
+	top:20px;
+ }
+}
+ 
+@media only screen and (min-width:1280px){
+	body {
+		font-size:20px;
+	}
+	h1 { font-size:70px;
+	}
+	h3 {
+		font-size:20px;
+	}
+	.author-item-1，.author-item-2{
+		font-size:50px;
+	}
+	section {
+		padding:3%;
+	}
+	footer {
+		padding:3%;
+
+	}
+	.arrow {
+		left 120px;
+		top:120px;
+	}
+}
+@media print{
+	body{
+		font-size:18px;
+
+	}
+	header,footer{
+		display:none;
+	}
+	h1{
+		font-size:50px;
+	}
+	h3{
+		font-size:14px;
+	}
+	.author-item-1，.author-item-2{
+		font-size:40px;
+	}
+	section{
+		padding:2%;
+	}
+	.arrow{
+		display:none;
+
+	}
 }
