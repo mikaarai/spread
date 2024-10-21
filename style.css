@@ -3,7 +3,7 @@ body {
 	font-size: 18px;
 	max-width:75ch;
 	margin:auto;
-	font: blue;
+	color: blue;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h2 {
 	font-size: 36px;
 	font-family: "inter", serif;
 	background-color: blue;
-	font: white;
+	color: white;
 }
 
 p {
@@ -31,11 +31,11 @@ section {
 
 footer {
 	background-color: blue;
-	font: white;
+	color: white;
 }
 
 .author-item-1 {
 	font-size: 60px;
 	background-color: blue;
-	font: white;
+	color: white;
 }
