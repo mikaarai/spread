@@ -1,16 +1,26 @@
 body {
 	font-family: "inter";
 	font-size: 18px;
-	max-width:75ch;
+	max-width:100vw;
 	color: blue;
+	margin-left: 100px;
 }
 
 h1 {
 	font-family: "inter";
 	font-size: 60px;
 	text-align: left;
-	font-weight:900;
+	font-weight:900px;
+	line-height: 100%;
+	
 	}
+
+h3 {
+	text-align: center;
+	font-size: 16px;
+	margin: 16px;
+}	
+
 
 h2 {
 	font-size: 36px;
@@ -19,6 +29,10 @@ h2 {
 	color: white;
 }
 
+header p {
+	font-size: 14px;
+
+}
 p {
 	line-height: 150%;
 	margin-bottom: 40px;
