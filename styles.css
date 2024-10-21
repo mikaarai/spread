@@ -1,13 +1,12 @@
 body {
-	font-family: "inter", serif;
+	font-family: "inter";
 	font-size: 18px;
 	max-width:75ch;
-	margin:auto;
 	color: blue;
 }
 
 h1 {
-	font-family: "inter", serif;
+	font-family: "inter";
 	font-size: 60px;
 	text-align: left;
 	font-weight:900;
@@ -15,7 +14,7 @@ h1 {
 
 h2 {
 	font-size: 36px;
-	font-family: "inter", serif;
+	font-family: "inter";
 	background-color: blue;
 	color: white;
 }
