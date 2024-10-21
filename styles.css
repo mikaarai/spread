@@ -64,11 +64,9 @@ footer {
 }
 
 .arrow {
-	position: relative;
-	left: 100px;
-	top: 100px;
-	display: block;
-	transform: rotate(45deg);
+    justify-content: space-between;
+    align-items: center;
+	display: inline;
 }
 
 @media only screen and (max-width:375px ) {
@@ -80,7 +78,7 @@ body {
 h1{
   font-size:40px;
  }
-.author-item-1，.author-item-2{
+.author-item-1.author-item-2{
 	font-size:40px;
  }
 .arrow{
@@ -98,7 +96,7 @@ h1{
 	h3 {
 		font-size:20px;
 	}
-	.author-item-1，.author-item-2{
+	.author-item-1.author-item-2{
 		font-size:50px;
 	}
 	section {
@@ -109,7 +107,7 @@ h1{
 
 	}
 	.arrow {
-		left 120px;
+		left:120px;
 		top:120px;
 	}
 }
@@ -127,7 +125,7 @@ h1{
 	h3{
 		font-size:14px;
 	}
-	.author-item-1，.author-item-2{
+	.author-item-1.author-item-2{
 		font-size:40px;
 	}
 	section{
