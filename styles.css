@@ -73,6 +73,11 @@ footer {
 	padding: 10%;
 }
 
+div.footercontent{
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
 .author-item-1, .author-item-2 {
 	font-family: "museomoderno";
 	font-size: 3.75rem;
