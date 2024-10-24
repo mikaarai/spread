@@ -51,7 +51,7 @@ p {
 .last-name {
 	font-family: "museomoderno";
 	font-size: 1rem;
-	border-bottom: 3px, blue;
+	border-bottom: 0.3ch blue solid;
 	max-width:100vw;
 	margin-top: 1%;
 	}
@@ -80,7 +80,7 @@ div.footercontent{
 	font-family: "museomoderno";
 	font-size: 3.75rem;
 	color: blue;
-	border-top: 0.1ch blue;
+	border-top: 0.1ch blue solid;
 	padding-top: 24px;
 }
 
