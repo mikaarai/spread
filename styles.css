@@ -5,15 +5,17 @@
 }
 :root {
   --brand-color: blue;
-  --brand-font-family: bayon;
+  --brand-font-family: "mulish";
+  --brand-font-size: 1.125rem;
+  --brand-margin: 4.27%;
+
 }
 
 body {
-  font-family: "mulish";
-  font-size: 1.125rem;
   max-width: 100vw;
   color: black;
   line-height: 100%;
+  font-family: "mulish";
 }
 /* h1 style */
 h1 {
@@ -54,6 +56,7 @@ h5 {
   padding-top:50px;
   margin-left: 4px;
 }
+
 header {
   padding-left: 5%;
   padding-bottom: 30px;
@@ -111,7 +114,7 @@ footer {
 }
 
 .number {
-  font-family: ;
+  font-family: "museomoderno";
   font-size: 2rem;
   font-weight: 800;
   color: black;
