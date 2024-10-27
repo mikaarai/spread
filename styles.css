@@ -63,7 +63,7 @@ h2 {
   font-weight:bold;
   color: blue;
   line-height: 1.25;
-  padding:10px;
+  padding:20px;
 
 }
 
@@ -72,8 +72,9 @@ ul {
   font-family: "mulish";
   font-style:oblique;
   font-weight: 600;
-  padding: 15px;
+  padding-top: 15px;
   list-style-type:disc;
+  padding-left: 15px;
 }
 
 body {
@@ -81,17 +82,23 @@ body {
   color: black;
   line-height: 100%;
   font-family: "mulish";
-  padding:7px;
+  /* padding:7px; */
 }
 p {
-  line-height: 1.6;
   max-width: 80ch;
-
+}
+p.introcontent {
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+p.interviewcontent{
+  line-height: 1.6;
+  padding-top: 20px;
 }
 p.authorname {
 	font-size: 1.3rem;
 	padding-top: 46px;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 p.date {
 	font-size: 1rem;
@@ -112,6 +119,7 @@ p.number {
   font-size: 3rem;
   font-weight: 800;
   color: black;
+  line-height: 1.6;
 }
 .last-name {
   font-family: "bayon";
@@ -136,7 +144,7 @@ div.footercontent{
 	color: var(--brand-color);
 }
 
-p.main
+/* p.main */
 {
   padding-top:10px;
 }
@@ -147,7 +155,7 @@ footer {
   color: white;
   padding:15px;
   text-align: center;
-  margin-top:60px;
+  margin-top:30px;
 }
 footer p {
   font-size: 0.8rem;
