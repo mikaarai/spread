@@ -11,99 +11,90 @@
 
 }
 
-body {
-  max-width: 100vw;
-  color: black;
-  line-height: 100%;
-  font-family: "mulish";
-}
-/* h1 style */
+/* Mobile Style */
 h1 {
   font-family: "bayon";
-  font-size: 280px;
+  font-size: 7rem;
   font-weight: 600;
   line-height: 85%;
   border-bottom: 3px white solid;
   border-top: 3px white solid;
   padding-top: 10px;
 }
-
-
 h2 {
-  font-size: 4rem;
+  font-size: 6.5rem;
   line-height: 100%;
 }
-
+/* Art in america */
 h3 {
   text-align: center;
-  font-size: 26px;
+  font-size: 1.3rem;
   padding-top: 10px;
   font-weight: 600;
   line-height: 30px;
-  padding-left:165px;
+  padding-left:190px;
 }
-
+/* The */
 h4 {
   font-family: "bruno ace";
-  font-size: 55px;
+  font-size: 3rem;
   margin-bottom: 20px;
 }
-
+/* Interface */
 h5 {
   font-family: "bayon";
-  font-size: 90px;
+  font-size: 6rem;
   letter-spacing: -2.5px;
-  padding-top:50px;
+  padding-top:45px;
   margin-left: 4px;
 }
-
 header {
   padding-left: 5%;
   padding-bottom: 30px;
-  padding-top: 0px;
+  padding-top: 15px;
   color: white;
   background-color: var(--brand-color);
   max-width:100vw;
 }
 
+/* Main Content */
+/* m */
+body {
+  max-width: 100vw;
+  color: black;
+  line-height: 100%;
+  font-family: "mulish";
+}
 p {
   line-height: 160%;
-  padding-top: 15px;
-  /* padding-bottom: 15px; */
+  padding-top:15px;
   max-width: 80ch;
 }
-
 p.authorname {
 	font-size: 1.3rem;
 	padding-top: 46px;
   line-height: 25px;
 }
-
 p.date {
 	font-size: 1rem;
 	padding-top: 15px;
 	padding-bottom: 1px;
 }
-
 .intro {
   padding-top: 1rem;
   max-width: 100vw;
   padding-top: 5%;
 }
-
 .subtitle{
-  font: size 0.5em;
+  font-size:0.5rem;
   color:blue;
-  text
-  
 }
-
-footer {
-  background-color: var(--brand-color);
-  color: white;
-  padding: 10%;
+.number {
+  font-family: "museomoderno";
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
 }
-
 .last-name {
   font-family: "bayon";
   font-size: 3.75rem;
@@ -112,60 +103,42 @@ footer {
   line-height: 50%;
   color: var(--brand-color)
 }
-
-.number {
-  font-family: "museomoderno";
-  font-size: 2rem;
-  font-weight: 800;
-  color: black;
-}
-
 section{
   padding-left: 3%;
+  margin-bottom: 20px;
 }
-
 div.footercontent{
 	margin-top: -20px;
 	margin-bottom: -20px;
+    margin-bottom: 15px;
 }
-
 .author-item-1, .author-item-2 {
 	font-family: "bayon";
 	font-size: 3.75rem;
 	color: var(--brand-color);
 	padding-top: 24px;
 }
-
 .author-item-1 p .author-item-2 p {
   font-size: 1.125rem;
 }
 
-@media only screen and (max-width: 375px) {
-  body {
-    font-size: 1rem;
-    margin:0 16px;
-  }
-
-  h1 {
-    font-size: 100px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
-
-  h5 {
-    font-size: 90px;
-     margin-top: -10px;
-  }
-  .author-item-1.author-item-2 {
-    font-size: 2.5rem;
-  }
-
+/* Footer */
+footer {
+  background-color: var(--brand-color);
+  color: white;
+  padding:15px;
+  text-align: center;
+}
+footer p {
+  font-size: 0.8rem;
+  margin: 5px 0;
 }
 
-@media only screen and (min-width: 1280px) {
+
+/* larger screen */
+@media only screen and (min-width: 768px) {
   body {
+    padding:20px;
     font-size: 1.125rem;
   }
 
@@ -181,42 +154,23 @@ div.footercontent{
     font-size: 1.125rem;
   }
 
-  .author-item-1,
-  .author-item-2 {
+  .author-item-1,.author-item-2 {
     font-size: 3.75rem;
   }
 }
+
+/* Print Styles */
 @media print {
-  body {
-    font-size: 1.125rem;
+  body{
+    color: black;
+    background:white;
+    max-width:none;
   }
-
-  header,
-  footer {
-    display: none;
+   header,footer {
+    color:black;
+    padding:0;
   }
-
-  h1 {
-    font-size: 100px;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  .author-item-1,
-  .author-item-2 {
-    font-size: 3.75rem;
-  }
-
-  section {
-    padding: 2%;
-  }
-
-}
-
-@media print {
-  :root {
-
+  p.last-name,.author-item-1,.author-item-2 {
+    color:black;
   }
 }
