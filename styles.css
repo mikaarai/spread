@@ -14,7 +14,7 @@
 /* Mobile Style */
 h1 {
   font-family: "bayon";
-  font-size: 6rem;
+  font-size: 7.2rem;
   font-weight: 600;
   line-height: 85%;
   border-bottom: 3px white solid;
@@ -22,15 +22,6 @@ h1 {
   padding-top: 10px;
   text-align: right;
   margin-right: 10%;
-}
-h2 {
-  font-family: "museomoderno";
-  font-weight: 600;
-  color: blue;
-  font-size: 2.4rem;
-  line-height: 110%;
-  padding-top: 5%;
-  padding-bottom: 10%;
 }
 /* Art in america */
 h3 {
@@ -41,7 +32,7 @@ h3 {
   padding: 10px;
   font-weight: 600;
   line-height: 30px;
-  /* padding-left: -10%; */
+  padding-left:185px;
 }
 /* The */
 h4 {
@@ -54,32 +45,52 @@ h4 {
 /* Interface */
 h5 {
   font-family: "bayon";
-  font-size: 4rem;
+  font-size: 6.2rem;
   letter-spacing: -2.5px;
-  padding-top: 1.5rem;
-  text-align: right;
-  margin-right: 5%;
+  padding-top:45px;
+  padding-right: 10px;
 }
 header {
+  padding:10px;
   padding-left: 5%;
-  padding-bottom: 6.5rem;
-  padding-top: 15px;
+  padding-bottom: 60px;
+  padding-top: 60px;
   color: white;
   background-color: var(--brand-color);
   max-width: 100vw;
 }
 
 /* Main Content */
-/* m */
+h2 {
+  font-size: 1.3rem;
+  line-height: 100%;
+  font-family: "mulish";
+  font-style:oblique;
+  font-weight:bold;
+  color: blue;
+  line-height: 1.25;
+  padding:20px;
+
+}
+
+ul {
+  font-size: 1.1rem;
+  font-family: "mulish";
+  font-style:oblique;
+  font-weight: 600;
+  padding-top: 15px;
+  list-style-type:disc;
+  padding-left: 15px;
+}
+
 body {
   max-width: 100vw;
   color: black;
   line-height: 100%;
   font-family: "mulish";
+  /* padding:7px; */
 }
 p {
-  line-height: 160%;
-  padding-top:15px;
   max-width: 80ch;
   padding-bottom: 5%;
 }
@@ -87,13 +98,19 @@ section{
   padding-left: 3%;
   padding-bottom: 10%;
 }
+p.introcontent {
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+p.interviewcontent{
+  line-height: 1.6;
+  padding-top: 20px;
+}
 p.authorname {
-	font-size: 0.8rem;
-	padding-top: 10%;
-  line-height: 25px;
-  text-align: right;
-  margin-right: 5%;
-  padding-bottom: 0;
+	font-size: 1.3rem;
+	padding-top: 46px;
+  padding-right: 20px;
+  line-height: 1.6;
 }
 p.date {
 	font-size: 0.8rem;
@@ -129,39 +146,29 @@ p.date {
   max-width: 100vw;
   padding-top: 5%;
 }
-.number {
+.subtitles {
+  font-size:0.5rem;
+  color:blue;
+}
+p.number {
   font-family: "museomoderno";
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 800;
   color: black;
-  padding-bottom: 0;
+  line-height: 1.6;
+  padding-top:20px;
 }
 .last-name {
   font-family: "bayon";
   font-size: 3.75rem;
   max-width: 100vw;
-  margin-top: 3%;
   line-height: 50%;
-  color: var(--brand-color)
+  color: var(--brand-color);
+  padding-top:25px;
 }
-.subtitle {
-  width: 1rem;
-  height: 1rem;
-  background-color: blue;
-  border-radius: 50%;
-  font-size: 1rem;
-  color: black;
-  font-weight: 600;
-  margin-right: 10px;
-}
-.flex-container {
-  display: flex;
-  align-items: center;
-  padding-top: 10%;
-}
-.flex-containers {
-  display: flex;
-  align-items: center;
+section{
+  padding-left: 3%;
+  margin-bottom: 3px;
 }
 div.footercontent{
 	margin-top: -20px;
@@ -171,10 +178,11 @@ div.footercontent{
 	font-family: "bayon";
 	font-size: 3.75rem;
 	color: var(--brand-color);
-	padding-top: 5%;
 }
-.author-item-1 p .author-item-2 p {
-  font-size: 1.125rem;
+
+/* p.main */
+{
+  padding-top:10px;
 }
 
 /* Footer */
@@ -183,6 +191,9 @@ footer {
   color: white;
   padding:15px;
   text-align: center;
+  margin-top:50px;
+  display:flex;
+  justify-content: center;
 }
 footer p {
   font-size: 0.8rem;
@@ -219,20 +230,39 @@ footer p {
   }
 
   h1 {
-    font-size: 150px;
+    font-size: 13rem;
   }
 
+  h5 {
+    font-size: 10rem;
+    padding: 80px;
+  }
+  h4{
+    font-size: 3.5rem;
+    padding-bottom:10px;
+
+  }
   h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
 
+  p.authorname{
+    font-size:1.5rem;
+    padding-top: 10px;
+  }
+  p.date{
+    font-size:1.3rem;
+
+  }
   header p {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
   }
 
   .author-item-1,.author-item-2 {
     font-size: 3.75rem;
   }
+  footer p {
+    font-size: 0.9rem;
 }
 
 /* Print Styles */
