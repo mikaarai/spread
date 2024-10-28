@@ -135,7 +135,7 @@ p.number {
   font-weight: 800;
   color: black;
   line-height: 1.6;
-  padding-top:10px;
+  padding-top:2px;
 }
 .last-name {
   font-family: "bayon";
@@ -145,7 +145,13 @@ p.number {
   color: var(--brand-color);
   padding-top:25px;
 }
+
 section{
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 3px;
+}
+section.intro{
   padding-left: 3%;
   padding-right: 3%;
   margin-bottom: 3px;
@@ -155,7 +161,7 @@ section{
   background-color: white;
   z-index: 1;
   top: 0;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 
 
 }
