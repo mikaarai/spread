@@ -9,7 +9,7 @@
   --brand-font-family-main: "Schibsted Grotesk";
   --brand-font-family-second: "bayon";
   --brand-font-family-third: "museomoderno";
-  --brand-font-size: 1.2rem;
+  --brand-font-size: 1.1rem;
   --brand-margin: 4.27%;
   --brand-line-height: 100%;
   --brand-max-width: 100vw;
@@ -129,19 +129,22 @@ p.date {
 
 p.number {
   font-family: var(--brand-font-family-third);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   color: black;
   line-height: 1.6;
-  padding-top:2px;
+  padding-top:3px;
+  padding-right:5px;
+  display: inline;
 }
 .last-name {
   font-family: var(--brand-font-family-second);
-  font-size: 3.75rem;
+  font-size: 3rem;
   max-width: var(--brand-max-width);
   line-height: 50%;
   color: var(--brand-color);
   padding-top:25px;
+  display: inline;
 }
 section{
   padding-top: 10%;
@@ -155,12 +158,14 @@ section{
   background-color: white;
   z-index: 1;
   top: 0;
-  padding-bottom: 10%;
+  padding-bottom:1%;
+  padding-top:3%;
 }
 .author-item-1, .author-item-2 {
 	font-family: var(--brand-font-family-second);
-	font-size: 3.75rem;
+	font-size: 3rem;
 	color: var(--brand-color);
+  display: inline;
 }
 a {
   color: var(--brand-color);
@@ -185,6 +190,7 @@ blockquote {
   line-height: 140%;
   font-style: italic;
   padding: 5%;
+  margin-bottom:4%;
 }
 /* Footer */
 footer {
@@ -202,17 +208,20 @@ em {
 
 /* larger screen */
 @media only screen and (min-width: 768px) {
+  header{
+    margin:
+  }
   body {
     padding:20px;
     font-size: 1.125rem;
   }
 
   h1 {
-    font-size: 13rem;
+    font-size: 14rem;
   }
 
   h5 {
-    font-size: 10rem;
+    font-size: 13rem;
     padding: 80px;
   }
   h4{
@@ -238,9 +247,17 @@ em {
 
   .author-item-1,.author-item-2 {
     font-size: 3.75rem;
+    display:block;
+  }
+  .last-name {
+    display: block;
   }
   footer p {
     font-size: 0.9rem;
+}
+.title{
+  padding-bottom: 3%;
+  padding-top: 1.5%;
 }
 
 /* Print Styles */
