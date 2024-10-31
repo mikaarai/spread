@@ -346,12 +346,13 @@ footer {
     font-size: 1.2rem;
   }
   h1 {
-    font-size: 16rem;
+    font-size: 13rem;
   }
   h5 {
-    font-size: 15rem;
+    font-size: 13rem;
     padding-top: 100px;
     padding-left: 100px;
+    padding-bottom:7%;
   }
   h4{
     font-size: 3.5rem;
@@ -360,10 +361,11 @@ footer {
   h3 {
     padding-top: 3%;
     font-size: 1.5rem;
+    padding-bottom: 1.1%;
   }
   p.authorname{
     font-size:1.5rem;
-    padding-top: 10px;
+    padding-top: 1%;
   }
   p.date{
     font-size:1.3rem;
@@ -375,13 +377,23 @@ footer {
     font-size: 3.75rem;
     display:block;
   }
+  section.authors{
+    padding-top:1%;
+
+  }
+ section{
+  padding-top:5%;
+ }
+ .flex-container{
+  padding-top: 1%;
+ }
   footer p {
     font-size: 2rem;
     margin-left: 1%;
   }
    
   footer {
-  padding:10%;
+  padding:7%;
 }
 .title {
   padding-bottom: 3%;
