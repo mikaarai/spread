@@ -121,16 +121,6 @@ p.date {
   transform: translate(-50%, -50%);
 }
 
-/* .flash {
-  width: 8px;
-  height: 8px;
-  background-color:blue);
-  border-radius: 2px;
-  position: absolute;
-  top: -5px;
-  left: 8px;
-} */
-
 .button {
   width: 10px;
   height: 10px;
@@ -144,8 +134,7 @@ p.date {
 /* <!-- Intro --> */
 section{
   padding-top: 10%;
-  max-width: var(--brand-max-width)
-  );
+  max-width: var(--brand-max-width);
   padding-left: var(--brand-padding-left);
   padding-right: var(--brand-padding-right);
   margin-bottom: 3px;
@@ -344,25 +333,32 @@ footer {
   blockquote {
     margin-left: 40%;
   }
-  header{
-    margin: 0;
+  header {
+    padding-left: var(--brand-padding-left);
+    padding-bottom: 5%;
+    padding-top:1%;
+    color: white;
+    background: linear-gradient(135deg, rgb(44, 39, 130), rgb(0, 0, 255));
+    max-width: var(--brand-max-width);
   }
   body {
     padding: 20px;
     font-size: 1.2rem;
   }
   h1 {
-    font-size: 14rem;
+    font-size: 16rem;
   }
   h5 {
-    font-size: 13rem;
-    padding: 80px;
+    font-size: 15rem;
+    padding-top: 100px;
+    padding-left: 100px;
   }
   h4{
     font-size: 3.5rem;
     padding-bottom:10px;
   }
   h3 {
+    padding-top: 3%;
     font-size: 1.5rem;
   }
   p.authorname{
@@ -381,6 +377,11 @@ footer {
   }
   footer p {
     font-size: 2rem;
+    margin-left: 1%;
+  }
+   
+  footer {
+  padding:10%;
 }
 .title {
   padding-bottom: 3%;
@@ -398,8 +399,7 @@ footer {
 .grid-item {
   height: 5.5rem;
 }
-.grid-item-grey {
-}
+
 /* camera */
 .camera-body {
   width: 200px;
@@ -407,7 +407,7 @@ footer {
   background: linear-gradient(135deg, rgb(0, 0, 128), rgb(0, 0, 255));
   border-radius: 15px;
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 
 .lens {
   width: 60px;
@@ -430,16 +430,6 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* 
-.flash {
-  width: 15px;
-  height: 15px;
-  background-color:rgb(32, 32, 175);
-  border-radius: 2px;
-  position: absolute;
-  top: -10px;
-  left: 15px;
-} */
 
 .button {
   width: 20px;
