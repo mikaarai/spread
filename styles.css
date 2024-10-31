@@ -33,7 +33,7 @@ header {
   padding-top: 10%;
   padding-bottom: 15%;
   color: white;
-  background-color: var(--brand-color);
+  background: linear-gradient(135deg, rgb(44, 39, 130), rgb(0, 0, 255));
   max-width: var(--brand-max-width);
 }
 
@@ -89,7 +89,57 @@ p.date {
   padding-top: 15px;
   padding-bottom: 1px;
 }
+/* camera */
+.camera-body {
+  width: 100px;
+  height: 65px;
+  background: linear-gradient(135deg, rgb(0, 0, 128), rgb(0, 0, 255));
+  border-radius: 15px;
+  position: relative;
+  margin: 50px auto;
+}
 
+.lens {
+  width: 30px;
+  height: 30px;
+  background-color:white;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  box-shadow: 0 0 10px rgba(44, 32, 32, 0.5);
+}
+
+.lens-inner {
+  width: 18px;
+  height: 18px;
+  background-color:rgb(32, 32, 175);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .flash {
+  width: 8px;
+  height: 8px;
+  background-color:blue);
+  border-radius: 2px;
+  position: absolute;
+  top: -5px;
+  left: 8px;
+} */
+
+.button {
+  width: 10px;
+  height: 10px;
+  background-color:white;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
 
 /* <!-- Intro --> */
 section{
@@ -350,6 +400,57 @@ footer {
 }
 .grid-item-grey {
 }
+/* camera */
+.camera-body {
+  width: 200px;
+  height: 120px;
+  background: linear-gradient(135deg, rgb(0, 0, 128), rgb(0, 0, 255));
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 80px;
+
+.lens {
+  width: 60px;
+  height: 60px;
+  background-color:white;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  box-shadow: 0 0 15px rgba(44, 32, 32, 0.5);
+}
+
+.lens-inner {
+  width: 35px;
+  height: 35px;
+  background-color:rgb(32, 32, 175);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* 
+.flash {
+  width: 15px;
+  height: 15px;
+  background-color:rgb(32, 32, 175);
+  border-radius: 2px;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+} */
+
+.button {
+  width: 20px;
+  height: 20px;
+  background-color:white;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
 
 /* Print Styles */
 @media print {
