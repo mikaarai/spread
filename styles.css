@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* Mobile Style */
 :root {
   --brand-color: blue;
   --brand-font-color: black;
@@ -17,40 +20,13 @@
   --brand-padding-right: 5%;
 }
 
-/* Mobile Style */
-h1 {
-  font-family: var(--brand-font-family-second);
-  font-size: 7.2rem;
-  font-weight: 600;
-  line-height: 85%;
-  border-bottom: 3px white solid;
-  border-top: 3px white solid;
-  padding-top: 10px;
-}
 
-/* Art in america */
-h3 {
-  display: block;
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 30px;
-  padding-bottom: 15%;
-}
-/* The */
-h4 {
-  font-family: "bruno ace";
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-/* Interface */
-h5 {
-  font-family: "bayon";
-  font-size: 6.2rem;
-  letter-spacing: -2.5px;
-  padding-top:45px;
-  padding-right: 10px;
-  padding-bottom: 10%;
+/* <!-- Header --> */
+body {
+  max-width: var(--brand-max-width);
+  color: var(--brand-font-color);
+  line-height: var(--brand-line-height);
+  font-family: var(--brand-font-family-main);
 }
 header {
   padding-left: var(--brand-padding-left);
@@ -61,91 +37,61 @@ header {
   max-width: 100vw;
 }
 
-/* Main Content */
-h2 {
-  font-size: 1.7rem;
-  font-family: var(--brand-font-family-main);
-  /* font-style: oblique; */
-  font-weight: 700;
-  /* color: var(--brand-color); */
-  line-height: 130%;
-  padding-bottom: 10%;
 
+/* Art in america */
+h3 {
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 30px;
+  padding-bottom: 15%;
 }
 
-body {
-  max-width: var(--brand-max-width);
-  color: var(--brand-font-color);
-  line-height: var(--brand-line-height);
-  font-family: var(--brand-font-family-main);
+
+/* The */
+h4 {
+  font-family: "bruno ace";
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+h1 {
+  font-family: var(--brand-font-family-second);
+  font-size: 7.2rem;
+  font-weight: 600;
+  line-height: 85%;
+  border-bottom: 3px white solid;
+  border-top: 3px white solid;
+  padding-top: 10px;
+}
+
+
+/* Interface */
+h5 {
+  font-family: "bayon";
+  font-size: 6.2rem;
+  letter-spacing: -2.5px;
+  padding-top:45px;
+  padding-right: 10px;
+  padding-bottom: 10%;
 }
 p {
   max-width: 80ch;
   font-size: var(--brand-font-size);
 }
-.introcontent p {
-  line-height: 1.6;
-  margin-bottom: 10%;
-}
-span.introduction{
-  font-weight: 700;
-
-}
-.interviewcontent{
-  line-height: 1.6;
-  padding-top: 20px;
-  margin-bottom: 5%;
-}
-.interviewcontent p {
-  margin-bottom: 10%;
-}
 p.authorname {
-	font-size: 1.3rem;
-	padding-top: 46px;
+  font-size: 1.3rem;
+  padding-top: 46px;
   line-height: 1.6;
 }
 p.date {
-	font-size: 1rem;
-	padding-top: 15px;
-	padding-bottom: 1px;
-}
-.subtitle {
-  font-size:1rem;
-  height: 1rem;
-  width: 1rem;
-  background-color: var(--brand-color);
-  border-radius: 50%;
   font-size: 1rem;
-  color: var(--brand-font-color);
-  font-weight: 600;
-  margin-right: 10px;
-}
-.flex-container {
-  display:flex;
-  align-items: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 15px;
+  padding-bottom: 1px;
 }
 
-p.number {
-  font-family: var(--brand-font-family-third);
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: black;
-  line-height: 1.6;
-  padding-top:3px;
-  padding-right:5px;
-  display: inline;
-}
-.last-name {
-  font-family: var(--brand-font-family-second);
-  font-size: 3rem;
-  max-width: var(--brand-max-width);
-  line-height: 50%;
-  color: var(--brand-color);
-  padding-top:25px;
-  display: inline;
-}
+
+/* <!-- Intro --> */
 section{
   padding-top: 10%;
   max-width: 100vw;
@@ -153,19 +99,28 @@ section{
   padding-right: var(--brand-padding-right);
   margin-bottom: 3px;
 }
-.title {
-  position: sticky;
-  background-color: white;
-  z-index: 1;
-  top: 0;
-  padding-bottom:1%;
-  padding-top:3%;
+.flex-container {
+  display:flex;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-.author-item-1, .author-item-2 {
-	font-family: var(--brand-font-family-second);
-	font-size: 3rem;
-	color: var(--brand-color);
-  display: inline;
+span.introduction{
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.7rem;
+  font-family: var(--brand-font-family-main);
+  font-weight: 700;
+  line-height: 130%;
+  padding-bottom: 10%;
+}
+.interviewcontent{
+  line-height: 1.6;
+  margin-bottom: 10%;
+}
+.interviewcontent p {
+  margin-bottom: 10%;
 }
 a {
   color: var(--brand-color);
@@ -177,6 +132,53 @@ a:hover {
 }
 span {
   color: grey;
+}
+
+
+/* <!-- Main --> */
+.subtitle {
+  font-size:1rem;
+  height: 1rem;
+  width: 1rem;
+  background-color: var(--brand-color);
+  border-radius: 50%;
+  font-size: 1rem;
+  color: var(--brand-font-color);
+  font-weight: 600;
+  margin-right: 10px;
+}
+.title {
+  position: sticky;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+  padding-bottom:1%;
+  padding-top:3%;
+}
+p.number {
+  font-family: var(--brand-font-family-third);
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: black;
+  line-height: 1.6;
+  padding-top:3px;
+  padding-right:5px;
+  display: inline;
+}
+.author-item-1, .author-item-2 {
+  font-family: var(--brand-font-family-second);
+  font-size: 3rem;
+  color: var(--brand-color);
+  display: inline;
+}
+.last-name {
+  font-family: var(--brand-font-family-second);
+  font-size: 3rem;
+  max-width: var(--brand-max-width);
+  line-height: 50%;
+  color: var(--brand-color);
+  padding-top:25px;
+  display: inline;
 }
 em {
   line-height: var(--brand-line-height);
@@ -191,16 +193,6 @@ blockquote {
   font-style: italic;
   padding: 5%;
   margin-bottom:4%;
-}
-/* Footer */
-footer {
-  background-color: var(--brand-color);
-  color: white;
-  padding-left: var(--brand-padding-left);
-  padding-top: 15%;
-  padding-bottom: 20%;
-  font-size: 1.25rem;
-  line-height: 120%;
 }
 em {
   font-weight: 700;
@@ -221,16 +213,52 @@ em {
 .grid-item-grey {
   background-color: #BCBCBC;
 }
+
+
+/* Footer */
+footer {
+  background-color: var(--brand-color);
+  color: white;
+  padding-left: var(--brand-padding-left);
+  padding-top: 15%;
+  padding-bottom: 20%;
+  font-size: 1.25rem;
+  line-height: 120%;
+}
+
+
+/* mobile screen */
+/* @media only screen and (min-width: 600px) {
+  [class*="col-"] {
+    width: 100%;
+    } 
+} */
+
+
+/*for tablet*/
+/* @media only screen and (min-width: 600px) {
+} */
+
 /* larger screen */
 @media only screen and (min-width: 768px) {
+  #intro {
+    margin-left: 30%;
+  }
+  #content {
+    margin-left: 30%;
+    max-width: 50vw;
+  }
+  blockquote {
+    margin-left: 40%;
+  }
   header{
     margin:0;
   }
   body {
-    padding:20px;
-    font-size: 1.125rem;
+    padding: 20px;
+    font-size: 1.2rem;
   }
-
+  
   h1 {
     font-size: 14rem;
   }
@@ -242,24 +270,20 @@ em {
   h4{
     font-size: 3.5rem;
     padding-bottom:10px;
-
   }
   h3 {
     font-size: 1.5rem;
   }
-
   p.authorname{
     font-size:1.5rem;
     padding-top: 10px;
   }
   p.date{
     font-size:1.3rem;
-
   }
   header p {
     font-size: 1.1rem;
   }
-
   .author-item-1,.author-item-2 {
     font-size: 3.75rem;
     display:block;
@@ -273,6 +297,10 @@ em {
 .title{
   padding-bottom: 3%;
   padding-top: 1.5%;
+  background-color: transparent;  
+  z-index: 50;
+  top: 0;
+}
 }
 
 /* Print Styles */
@@ -289,5 +317,4 @@ em {
   p.last-name,.author-item-1,.author-item-2 {
     color:black;
   }
-}
 }
