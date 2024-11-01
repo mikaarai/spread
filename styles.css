@@ -443,17 +443,12 @@ h1,h5 {
       background: white;
       max-width: none;
     }
-  
     header, footer {
       color: black;
-      padding: 0;
+      padding: 1;
+      background: white;
     }
-  
     p.last-name, .author-item-1, .author-item-2 {
       color: black;
-    }
-  
-    .grid-container, .camera-body {
-      display: none;
     }
   }
