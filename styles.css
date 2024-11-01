@@ -448,18 +448,43 @@ h1,h5 {
 }
 
 
-/* Print Styles */
 @media print {
-  body{
+  /* General print styles */
+  body {
     color: black;
-    background:white;
-    max-width:none;
+    background: white;
+    max-width: none;
   }
-   header,footer {
-    color:black;
-    padding:0;
+
+  header, footer {
+    color: black;
+    padding: 0;
   }
-  p.last-name,.author-item-1,.author-item-2 {
-    color:black;
+
+  p.last-name, .author-item-1, .author-item-2 {
+    color: black;
+  }
+
+  @media print {
+    /* General print styles */
+    body {
+      color: black;
+      background: white;
+      max-width: none;
+    }
+  
+    header, footer {
+      color: black;
+      padding: 0;
+    }
+  
+    p.last-name, .author-item-1, .author-item-2 {
+      color: black;
+    }
+  
+    /* Hide grid-container and camera-body for print */
+    .grid-container, .camera-body {
+      display: none;
+    }
   }
 }
