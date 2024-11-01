@@ -443,6 +443,21 @@ h1,h5 {
       background: white;
       max-width: none;
     }
+    em {
+      color: black;
+    }
+    a {
+      color: black;
+    }
+    .grid-item {
+      background-color: #BCBCBC;
+    }
+    .grid-item-grey {
+      background-color: #ececec;
+    }
+    .subtitle {
+      background-color: black;
+    }
     header, footer {
       color: black;
       padding: 1;
@@ -451,4 +466,13 @@ h1,h5 {
     p.last-name, .author-item-1, .author-item-2 {
       color: black;
     }
+    .camera-body {
+      background: #BCBCBC;
+    }
+    .lens {
+      background-color:white;
+    }
+    .lens-inner {
+      background-color:#BCBCBC;;
+  }
   }
