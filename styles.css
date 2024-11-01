@@ -319,17 +319,30 @@ footer {
     padding: 0;
     box-sizing: border-box;
   }
-  
+  .flex-container {
+    width: 30%;
+  }
   #intro {
     margin-left: 30%;
     font-size: calc(var(--root-font-size-p)*1.05);
+    margin-top: 3%;
   }
-  #content {
+  p#content {
     margin-left: 30%;
     max-width: 55vw;
     line-height: 1.8;
     font-size: 1.25rem;
+  }
+  .interviewcontent {
+    line-height: 1.6;
     margin-bottom: 3%;
+  }
+  .interviewcontent p {
+    margin-bottom: 5%;
+  }
+  h2#intro {
+    margin-bottom: 0;  
+    padding-bottom: 3%;
   }
   em {
     font-size: 1.25rem;
