@@ -447,24 +447,7 @@ h1,h5 {
   right: 15px;
 }
 
-
-@media print {
-  /* General print styles */
-  body {
-    color: black;
-    background: white;
-    max-width: none;
-  }
-
-  header, footer {
-    color: black;
-    padding: 0;
-  }
-
-  p.last-name, .author-item-1, .author-item-2 {
-    color: black;
-  }
-
+  /* print styles */
   @media print {
     /* General print styles */
     body {
@@ -482,9 +465,7 @@ h1,h5 {
       color: black;
     }
   
-    /* Hide grid-container and camera-body for print */
     .grid-container, .camera-body {
       display: none;
     }
   }
-}
